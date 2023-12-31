@@ -1,0 +1,66 @@
+form.limited div.alertInput[class^=i_]{
+    position: absolute;
+    background-color: red;
+    top:50%;
+    right: 0;
+    height: fit-content;
+    border-radius: .1rem;
+    -webkit-border-radius: .1rem;
+    -moz-border-radius: .1rem;
+    -ms-border-radius: .1rem;
+    -o-border-radius: .1rem;
+    padding:.3rem .3rem;
+    font-size: 1.3rem;
+    transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    animation: slide .6s ease-in;
+    -webkit-animation: slide .2s ease-in forwards;
+}
+@keyframes slide {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        right: .5rem;
+}
+}
+form.limited div.inputContainer{
+    position: relative;
+}
+form.limited div.inputContainer input{
+    padding-right: 5rem !important;
+}
+form.limited div.textareaContainer{
+    position: relative;
+}
+form.limited div.textareaContainer textarea{
+    padding-bottom: 5rem !important;
+}
+form.limited div.alertTextarea[class^=i_]{
+    position: absolute;
+    background-color: red;
+    bottom:.5rem;
+    right: 0;
+    height: fit-content;
+    border-radius: .1rem;
+    -webkit-border-radius: .1rem;
+    -moz-border-radius: .1rem;
+    -ms-border-radius: .1rem;
+    -o-border-radius: .1rem;
+    padding:.3rem .3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    animation: slide .6s ease-in;
+    -webkit-animation: slide .2s ease-in forwards;
+}
+
+
